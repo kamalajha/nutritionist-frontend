@@ -28,7 +28,7 @@ const Login = () => {
 
     try {
       const res = await axios.post(
-        `${API_URL}auth/token`,
+        `${API_URL}/auth/token`,
         formData
       );
 
